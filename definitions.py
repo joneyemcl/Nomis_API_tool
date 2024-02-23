@@ -170,8 +170,8 @@ class DocStyles:
     heading2 = 'Heading 2'
 
     # table styles
-    placeholder = 'Placeholder'
-    table = 'Table New'
+    placeholder = 'Regeneris Placeholder'
+    table = 'Regeneris Table New'
 
     # table text styles
     tableTitle = 'Table Title'

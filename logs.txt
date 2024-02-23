@@ -1,24 +1,24 @@
-22-02-2024 16:04:07 DEBUG    [menu.py:15] reading csv into dataframe
-22-02-2024 16:04:07 DEBUG    [impact_areas.py:27] loading lookup dataframe with this path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
-22-02-2024 16:04:07 DEBUG    [menu.py:18] returning lower case list
-22-02-2024 16:04:09 DEBUG    [menu.py:44] user successfully selected ealing
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:27] loading lookup dataframe with this path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:35] grabbing impact area row from dataframe
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:41] creating named tuples for impact area and benchmarks
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:48] impact area: ImpactArea(area_name='Ealing', area_code='E09000009', area_name_lower='ealing')
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:55] impact area: ImpactArea(area_name='London', area_code='E12000007', area_name_lower='london')
-22-02-2024 16:04:09 DEBUG    [impact_areas.py:62] impact area: ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')
-22-02-2024 16:04:09 DEBUG    [app.py:39] <[ImpactArea(area_name='Ealing', area_code='E09000009', area_name_lower='ealing'), ImpactArea(area_name='London', area_code='E12000007', area_name_lower='london'), ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')]>
-22-02-2024 16:04:09 DEBUG    [menu.py:54] asking user which receptors to include
-22-02-2024 16:04:10 DEBUG    [menu.py:62] user selected ['Mid-year population estimates', 'y']
-22-02-2024 16:04:10 DEBUG    [menu.py:62] user selected ['Sub-national population projections', 'n']
-22-02-2024 16:04:10 DEBUG    [menu.py:62] user selected ['Employment', 'n']
-22-02-2024 16:04:10 DEBUG    [menu.py:62] user selected ['Unemployment', 'n']
-22-02-2024 16:04:11 DEBUG    [menu.py:62] user selected ['Occupational profile', 'n']
-22-02-2024 16:04:11 DEBUG    [menu.py:62] user selected ['Proportion highly skilled workers', 'n']
-22-02-2024 16:04:13 DEBUG    [menu.py:62] user selected ['Affordability', 'n']
-22-02-2024 16:04:13 DEBUG    [cleaning_tools.py:35] the url is https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.tsv?geography=1879048193...1879048573,1879048583,1879048574...1879048582&date=latestMINUS10,latest&gender=0&c_age=101...191&measures=20100&uid=0xe604927b6c64b9afa87eba633d7a2f7d1cc4a338
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:37] importing tsv data via Nomis API:
+23-02-2024 16:06:58 DEBUG    [menu.py:15] reading csv into dataframe
+23-02-2024 16:06:58 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
+23-02-2024 16:06:58 DEBUG    [menu.py:18] returning lower case list
+23-02-2024 16:07:01 DEBUG    [menu.py:44] user successfully selected oldham
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:35] getting impact area row from dataframe
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:41] making named tuples for impact area and benchmarks
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:48] impact area: ImpactArea(area_name='Oldham', area_code='E08000004', area_name_lower='oldham')
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:55] impact area: ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west')
+23-02-2024 16:07:01 DEBUG    [impact_areas.py:62] impact area: ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')
+23-02-2024 16:07:01 DEBUG    [app.py:39] <[ImpactArea(area_name='Oldham', area_code='E08000004', area_name_lower='oldham'), ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west'), ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')]>
+23-02-2024 16:07:01 DEBUG    [menu.py:54] asking user which receptors to include
+23-02-2024 16:08:12 DEBUG    [menu.py:62] user selected ['Mid-year population estimates', 'y']
+23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Sub-national population projections', 'n']
+23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Employment', 'n']
+23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Unemployment', 'n']
+23-02-2024 16:08:14 DEBUG    [menu.py:62] user selected ['Occupational profile', 'n']
+23-02-2024 16:08:14 DEBUG    [menu.py:62] user selected ['Proportion highly skilled workers', 'n']
+23-02-2024 16:08:15 DEBUG    [menu.py:62] user selected ['Affordability', 'n']
+23-02-2024 16:08:15 DEBUG    [cleaning_tools.py:35] the url is https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.tsv?geography=1879048193...1879048573,1879048583,1879048574...1879048582&date=latestMINUS10,latest&gender=0&c_age=101...191&measures=20100&uid=0xe604927b6c64b9afa87eba633d7a2f7d1cc4a338
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:37] importing tsv data via Nomis API:
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY GEOGRAPHY_NAME GEOGRAPHY_CODE                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -32,7 +32,7 @@
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162  
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:38] 
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:38] 
 DATE                     int64
 DATE_NAME                int64
 DATE_CODE                int64
@@ -68,19 +68,19 @@ URN                     object
 RECORD_OFFSET            int64
 RECORD_COUNT             int64
 dtype: object
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:28] the path is c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\areacode_lookup.tsv
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:30] importing tsv data:
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:28] the path is c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\areacode_lookup.tsv
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:30] importing tsv data:
     geogcode                     description
 0  E47000001     combauth:Greater Manchester
 1  E47000002  combauth:Sheffield City Region
 2  E47000003         combauth:West Yorkshire
 3  E47000004  combauth:Liverpool City Region
 4  E47000005             combauth:North East
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:31] 
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:31] 
 geogcode       object
 description    object
 dtype: object
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:74] merging the area codes
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:75] merging the area codes
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY GEOGRAPHY_NAME GEOGRAPHY_CODE                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -94,8 +94,8 @@ dtype: object
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN  
-22-02-2024 16:04:21 DEBUG    [cleaning_tools.py:129] cleaning the age column
-22-02-2024 16:04:22 DEBUG    [cleaning_tools.py:142] creating age bins
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:130] cleaning the age column
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:143] creating age bins
 0    0-15
 1    0-15
 2    0-15
@@ -103,7 +103,7 @@ dtype: object
 4    0-15
 Name: age, dtype: category
 Categories (3, object): ['0-15' < '16-64' < '65+']
-22-02-2024 16:04:22 DEBUG    [cleaning_tools.py:134] 
+23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:135] 
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY   area_name  area_code                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -117,12 +117,12 @@ Categories (3, object): ['0-15' < '16-64' < '65+']
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN    2     0-15  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN    3     0-15  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN    4     0-15  
-22-02-2024 16:04:22 DEBUG    [myede_cleaning.py:22] selecting myede columns from: 
-22-02-2024 16:04:22 DEBUG    [myede_cleaning.py:23] 
+23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:22] selecting myede columns from: 
+23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:23] 
 Index(['DATE', 'DATE_NAME', 'DATE_CODE', 'DATE_TYPE', 'DATE_TYPECODE', 'DATE_SORTORDER', 'GEOGRAPHY', 'area_name', 'area_code', 'GEOGRAPHY_TYPE', 'GEOGRAPHY_TYPECODE', 'GEOGRAPHY_SORTORDER', 'GENDER', 'GENDER_NAME', 'GENDER_CODE', 'GENDER_TYPE', 'GENDER_TYPECODE', 'GENDER_SORTORDER', 'C_AGE', 'C_AGE_NAME', 'C_AGE_CODE', 'C_AGE_TYPE', 'C_AGE_TYPECODE', 'C_AGE_SORTORDER', 'MEASURES', 'MEASURES_NAME', 'OBS_VALUE', 'OBS_STATUS', 'OBS_STATUS_NAME', 'OBS_CONF', 'OBS_CONF_NAME', 'URN',
        'RECORD_OFFSET', 'RECORD_COUNT', 'area_code', 'age', 'age_band'],
       dtype='object')
-22-02-2024 16:04:22 DEBUG    [myede_cleaning.py:24] 
+23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:24] 
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY   area_name  area_code                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -136,17 +136,17 @@ Index(['DATE', 'DATE_NAME', 'DATE_CODE', 'DATE_TYPE', 'DATE_TYPECODE', 'DATE_SOR
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN    2     0-15  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN    3     0-15  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN    4     0-15  
-22-02-2024 16:04:22 DEBUG    [myede_cleaning.py:26] 
+23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:26] 
    DATE                                     GEOGRAPHY_TYPE   area_name  area_code area_code C_AGE_NAME  OBS_VALUE age_band
 0  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 0     1334.0     0-15
 1  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 1     1319.0     0-15
 2  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 2     1341.0     0-15
 3  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 3     1315.0     0-15
 4  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 4     1301.0     0-15
-22-02-2024 16:04:22 DEBUG    [processing_tools.py:26] YEAR recent and less ten (2022, 2012)
-22-02-2024 16:04:22 DEBUG    [impact_areas.py:118] creating new struct from impact_areas:
-[{'area_name': 'Ealing', 'area_code': 'E09000009', 'area_name_lower': 'ealing'}, {'area_name': 'London', 'area_code': 'E12000007', 'area_name_lower': 'london'}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england'}]
-22-02-2024 16:04:22 DEBUG    [processing_tools.py:43] imported myede cleaned
+23-02-2024 16:08:24 DEBUG    [processing_tools.py:26] YEAR recent and less ten (2022, 2012)
+23-02-2024 16:08:24 DEBUG    [impact_areas.py:118] creating new struct from impact_areas:
+[{'area_name': 'Oldham', 'area_code': 'E08000004', 'area_name_lower': 'oldham'}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west'}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england'}]
+23-02-2024 16:08:24 DEBUG    [processing_tools.py:43] imported myede cleaned
    DATE                                     GEOGRAPHY_TYPE   area_name  area_code area_code C_AGE_NAME  OBS_VALUE age_band
 0  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 0     1334.0     0-15
 1  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 1     1319.0     0-15
