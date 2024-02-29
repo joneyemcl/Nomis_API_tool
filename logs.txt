@@ -1,24 +1,24 @@
-23-02-2024 16:06:58 DEBUG    [menu.py:15] reading csv into dataframe
-23-02-2024 16:06:58 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
-23-02-2024 16:06:58 DEBUG    [menu.py:18] returning lower case list
-23-02-2024 16:07:01 DEBUG    [menu.py:44] user successfully selected oldham
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:35] getting impact area row from dataframe
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:41] making named tuples for impact area and benchmarks
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:48] impact area: ImpactArea(area_name='Oldham', area_code='E08000004', area_name_lower='oldham')
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:55] impact area: ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west')
-23-02-2024 16:07:01 DEBUG    [impact_areas.py:62] impact area: ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')
-23-02-2024 16:07:01 DEBUG    [app.py:39] <[ImpactArea(area_name='Oldham', area_code='E08000004', area_name_lower='oldham'), ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west'), ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')]>
-23-02-2024 16:07:01 DEBUG    [menu.py:54] asking user which receptors to include
-23-02-2024 16:08:12 DEBUG    [menu.py:62] user selected ['Mid-year population estimates', 'y']
-23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Sub-national population projections', 'n']
-23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Employment', 'n']
-23-02-2024 16:08:13 DEBUG    [menu.py:62] user selected ['Unemployment', 'n']
-23-02-2024 16:08:14 DEBUG    [menu.py:62] user selected ['Occupational profile', 'n']
-23-02-2024 16:08:14 DEBUG    [menu.py:62] user selected ['Proportion highly skilled workers', 'n']
-23-02-2024 16:08:15 DEBUG    [menu.py:62] user selected ['Affordability', 'n']
-23-02-2024 16:08:15 DEBUG    [cleaning_tools.py:35] the url is https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.tsv?geography=1879048193...1879048573,1879048583,1879048574...1879048582&date=latestMINUS10,latest&gender=0&c_age=101...191&measures=20100&uid=0xe604927b6c64b9afa87eba633d7a2f7d1cc4a338
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:37] importing tsv data via Nomis API:
+29-02-2024 12:11:07 DEBUG    [menu.py:15] reading csv into dataframe
+29-02-2024 12:11:07 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
+29-02-2024 12:11:07 DEBUG    [menu.py:18] returning lower case list
+29-02-2024 12:11:09 DEBUG    [menu.py:44] user successfully selected eden
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:27] loading lookup dataframe with path c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\lookup_lad_rgn_cmba_ctry_190918.csv
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:35] getting impact area row from dataframe
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:41] making named tuples for impact area and benchmarks
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:48] impact area: ImpactArea(area_name='Eden', area_code='E07000030', area_name_lower='eden')
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:55] impact area: ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west')
+29-02-2024 12:11:09 DEBUG    [impact_areas.py:62] impact area: ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')
+29-02-2024 12:11:09 DEBUG    [app.py:39] <[ImpactArea(area_name='Eden', area_code='E07000030', area_name_lower='eden'), ImpactArea(area_name='North West', area_code='E12000002', area_name_lower='north west'), ImpactArea(area_name='England', area_code='E92000001', area_name_lower='england')]>
+29-02-2024 12:11:09 DEBUG    [menu.py:54] asking user which receptors to include
+29-02-2024 12:11:10 DEBUG    [menu.py:62] user selected ['Mid-year population estimates', 'y']
+29-02-2024 12:11:10 DEBUG    [menu.py:62] user selected ['Sub-national population projections', 'n']
+29-02-2024 12:11:11 DEBUG    [menu.py:62] user selected ['Employment', 'n']
+29-02-2024 12:11:11 DEBUG    [menu.py:62] user selected ['Unemployment', 'n']
+29-02-2024 12:11:11 DEBUG    [menu.py:62] user selected ['Occupational profile', 'n']
+29-02-2024 12:11:11 DEBUG    [menu.py:62] user selected ['Proportion highly skilled workers', 'n']
+29-02-2024 12:11:12 DEBUG    [menu.py:62] user selected ['Affordability', 'n']
+29-02-2024 12:11:12 DEBUG    [cleaning_tools.py:35] the url is https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.tsv?geography=1879048193...1879048573,1879048583,1879048574...1879048582&date=latestMINUS10,latest&gender=0&c_age=101...191&measures=20100&uid=0xe604927b6c64b9afa87eba633d7a2f7d1cc4a338
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:37] importing tsv data via Nomis API:
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY GEOGRAPHY_NAME GEOGRAPHY_CODE                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -32,7 +32,7 @@
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162  
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:38] 
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:38] 
 DATE                     int64
 DATE_NAME                int64
 DATE_CODE                int64
@@ -68,19 +68,19 @@ URN                     object
 RECORD_OFFSET            int64
 RECORD_COUNT             int64
 dtype: object
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:28] the path is c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\areacode_lookup.tsv
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:30] importing tsv data:
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:28] the path is c:\Users\hub11\Documents\Python\misc\nomis_report_tool\lookups\areacode_lookup.tsv
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:30] importing tsv data:
     geogcode                     description
 0  E47000001     combauth:Greater Manchester
 1  E47000002  combauth:Sheffield City Region
 2  E47000003         combauth:West Yorkshire
 3  E47000004  combauth:Liverpool City Region
 4  E47000005             combauth:North East
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:31] 
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:31] 
 geogcode       object
 description    object
 dtype: object
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:75] merging the area codes
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:75] merging the area codes
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY GEOGRAPHY_NAME GEOGRAPHY_CODE                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193     Darlington      E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -94,8 +94,8 @@ dtype: object
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN  
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:130] cleaning the age column
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:143] creating age bins
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:130] cleaning the age column
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:143] creating age bins
 0    0-15
 1    0-15
 2    0-15
@@ -103,7 +103,7 @@ dtype: object
 4    0-15
 Name: age, dtype: category
 Categories (3, object): ['0-15' < '16-64' < '65+']
-23-02-2024 16:08:24 DEBUG    [cleaning_tools.py:135] 
+29-02-2024 12:11:21 DEBUG    [cleaning_tools.py:135] 
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY   area_name  area_code                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -117,12 +117,12 @@ Categories (3, object): ['0-15' < '16-64' < '65+']
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN    2     0-15  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN    3     0-15  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN    4     0-15  
-23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:22] selecting myede columns from: 
-23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:23] 
+29-02-2024 12:11:21 DEBUG    [myede_cleaning.py:22] selecting myede columns from: 
+29-02-2024 12:11:21 DEBUG    [myede_cleaning.py:23] 
 Index(['DATE', 'DATE_NAME', 'DATE_CODE', 'DATE_TYPE', 'DATE_TYPECODE', 'DATE_SORTORDER', 'GEOGRAPHY', 'area_name', 'area_code', 'GEOGRAPHY_TYPE', 'GEOGRAPHY_TYPECODE', 'GEOGRAPHY_SORTORDER', 'GENDER', 'GENDER_NAME', 'GENDER_CODE', 'GENDER_TYPE', 'GENDER_TYPECODE', 'GENDER_SORTORDER', 'C_AGE', 'C_AGE_NAME', 'C_AGE_CODE', 'C_AGE_TYPE', 'C_AGE_TYPECODE', 'C_AGE_SORTORDER', 'MEASURES', 'MEASURES_NAME', 'OBS_VALUE', 'OBS_STATUS', 'OBS_STATUS_NAME', 'OBS_CONF', 'OBS_CONF_NAME', 'URN',
        'RECORD_OFFSET', 'RECORD_COUNT', 'area_code', 'age', 'age_band'],
       dtype='object')
-23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:24] 
+29-02-2024 12:11:21 DEBUG    [myede_cleaning.py:24] 
    DATE  DATE_NAME  DATE_CODE DATE_TYPE  DATE_TYPECODE  DATE_SORTORDER   GEOGRAPHY   area_name  area_code                                     GEOGRAPHY_TYPE  GEOGRAPHY_TYPECODE  GEOGRAPHY_SORTORDER  GENDER GENDER_NAME  GENDER_CODE GENDER_TYPE  GENDER_TYPECODE  GENDER_SORTORDER  C_AGE C_AGE_NAME  C_AGE_CODE      C_AGE_TYPE  C_AGE_TYPECODE  C_AGE_SORTORDER  MEASURES MEASURES_NAME  OBS_VALUE OBS_STATUS OBS_STATUS_NAME OBS_CONF                OBS_CONF_NAME  \
 0  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    101      Age 0         101  Individual age            1000                0     20100         Value     1334.0          A    Normal Value        F  Free (free for publication)   
 1  2012       2012       2012      date              0               0  1879048193  Darlington  E06000005  local authorities: district / unitary (as of A...                 448                    0       0       Total            0         Sex             1000                 0    102      Age 1         102  Individual age            1000                1     20100         Value     1319.0          A    Normal Value        F  Free (free for publication)   
@@ -136,20 +136,191 @@ Index(['DATE', 'DATE_NAME', 'DATE_CODE', 'DATE_TYPE', 'DATE_TYPECODE', 'DATE_SOR
 2  Nm-2002d1d32192e1d1879048193d0d103d20100              2         71162       NaN    2     0-15  
 3  Nm-2002d1d32192e1d1879048193d0d104d20100              3         71162       NaN    3     0-15  
 4  Nm-2002d1d32192e1d1879048193d0d105d20100              4         71162       NaN    4     0-15  
-23-02-2024 16:08:24 DEBUG    [myede_cleaning.py:26] 
+29-02-2024 12:11:21 DEBUG    [myede_cleaning.py:26] 
    DATE                                     GEOGRAPHY_TYPE   area_name  area_code area_code C_AGE_NAME  OBS_VALUE age_band
 0  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 0     1334.0     0-15
 1  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 1     1319.0     0-15
 2  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 2     1341.0     0-15
 3  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 3     1315.0     0-15
 4  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 4     1301.0     0-15
-23-02-2024 16:08:24 DEBUG    [processing_tools.py:26] YEAR recent and less ten (2022, 2012)
-23-02-2024 16:08:24 DEBUG    [impact_areas.py:118] creating new struct from impact_areas:
-[{'area_name': 'Oldham', 'area_code': 'E08000004', 'area_name_lower': 'oldham'}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west'}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england'}]
-23-02-2024 16:08:24 DEBUG    [processing_tools.py:43] imported myede cleaned
+29-02-2024 12:11:21 DEBUG    [processing_tools.py:26] YEAR recent and less ten (2022, 2012)
+29-02-2024 12:11:21 DEBUG    [impact_areas.py:118] creating new struct from impact_areas:
+[{'area_name': 'Eden', 'area_code': 'E07000030', 'area_name_lower': 'eden'}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west'}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england'}]
+29-02-2024 12:11:21 DEBUG    [processing_tools.py:43] imported myede cleaned
    DATE                                     GEOGRAPHY_TYPE   area_name  area_code area_code C_AGE_NAME  OBS_VALUE age_band
 0  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 0     1334.0     0-15
 1  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 1     1319.0     0-15
 2  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 2     1341.0     0-15
 3  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 3     1315.0     0-15
 4  2012  local authorities: district / unitary (as of A...  Darlington  E06000005       NaN      Age 4     1301.0     0-15
+29-02-2024 12:11:21 DEBUG    [processing_tools.py:46] filtering for impact areas
+area_name
+Eden    182
+Name: count, dtype: int64
+29-02-2024 12:11:21 DEBUG    [processing_tools.py:77] total pop 55489.0, area E07000030 year 2022
+29-02-2024 12:11:21 DEBUG    [processing_tools.py:77] total pop 0.0, area E12000002 year 2022
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:77] total pop 0.0, area E92000001 year 2022
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:59] 
+[{'area_name': 'Eden', 'area_code': 'E07000030', 'area_name_lower': 'eden', 'total_pop': 55489.0}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west', 'total_pop': 0.0}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england', 'total_pop': 0.0}]
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:77] total pop 52684.0, area E07000030 year 2012
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:77] total pop 0.0, area E12000002 year 2012
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:77] total pop 0.0, area E92000001 year 2012
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:59] 
+[{'area_name': 'Eden', 'area_code': 'E07000030', 'area_name_lower': 'eden', 'total_pop': 55489.0, 'total_pop_past': 52684.0}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west', 'total_pop': 0.0, 'total_pop_past': 0.0}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england', 'total_pop': 0.0, 'total_pop_past': 0.0}]
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E07000030, 2022:
+{'0-15': 8152.0, '16-64': 32624.0, '65+': 14713.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E12000002, 2022:
+{'0-15': 0.0, '16-64': 0.0, '65+': 0.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E92000001, 2022:
+{'0-15': 0.0, '16-64': 0.0, '65+': 0.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:59] 
+[{'area_name': 'Eden', 'area_code': 'E07000030', 'area_name_lower': 'eden', 'total_pop': 55489.0, 'total_pop_past': 52684.0, 'pop_bands': {'0-15': 8152.0, '16-64': 32624.0, '65+': 14713.0}}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west', 'total_pop': 0.0, 'total_pop_past': 0.0, 'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england', 'total_pop': 0.0, 'total_pop_past': 0.0, 'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}}]
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E07000030, 2012:
+{'0-15': 8422.0, '16-64': 32181.0, '65+': 12081.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E12000002, 2012:
+{'0-15': 0.0, '16-64': 0.0, '65+': 0.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:96] pop bands E92000001, 2012:
+{'0-15': 0.0, '16-64': 0.0, '65+': 0.0}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:59] 
+[{'area_name': 'Eden', 'area_code': 'E07000030', 'area_name_lower': 'eden', 'total_pop': 55489.0, 'total_pop_past': 52684.0, 'pop_bands': {'0-15': 8152.0, '16-64': 32624.0, '65+': 14713.0}, 'pop_bands_past': {'0-15': 8422.0, '16-64': 32181.0, '65+': 12081.0}}, {'area_name': 'North West', 'area_code': 'E12000002', 'area_name_lower': 'north west', 'total_pop': 0.0, 'total_pop_past': 0.0, 'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}, 'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}}, {'area_name': 'England', 'area_code': 'E92000001', 'area_name_lower': 'england', 'total_pop': 0.0, 'total_pop_past': 0.0, 'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}, 'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}}]
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:106] Eden, {'0-15': 0.15, '16-64': 0.59, '65+': 0.27}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:106] North West, {'0-15': nan, '16-64': nan, '65+': nan}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:106] England, {'0-15': nan, '16-64': nan, '65+': nan}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:117] adding pop chg Eden, 2805.0, 0.05
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:117] adding pop chg North West, 0.0, nan
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:117] adding pop chg England, 0.0, nan
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:124] adding pop chg band Eden, {'0-15': -270.0, '16-64': 443.0, '65+': 2632.0}, {'0-15': -0.03, '16-64': 0.01, '65+': 0.22}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:124] adding pop chg band North West, {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}, {'0-15': nan, '16-64': nan, '65+': nan}
+29-02-2024 12:11:22 DEBUG    [processing_tools.py:124] adding pop chg band England, {'0-15': 0.0, '16-64': 0.0, '65+': 0.0}, {'0-15': nan, '16-64': nan, '65+': nan}
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:58] calculations (myede) complete:
+[{'area_code': 'E07000030',
+  'area_name': 'Eden',
+  'area_name_lower': 'eden',
+  'pop_bands': {'0-15': 8152.0, '16-64': 32624.0, '65+': 14713.0},
+  'pop_bands_chg': {'0-15': -270.0, '16-64': 443.0, '65+': 2632.0},
+  'pop_bands_chg_pct': {'0-15': -0.03, '16-64': 0.01, '65+': 0.22},
+  'pop_bands_past': {'0-15': 8422.0, '16-64': 32181.0, '65+': 12081.0},
+  'pop_bands_pct': {'0-15': 0.15, '16-64': 0.59, '65+': 0.27},
+  'pop_chg': 2805.0,
+  'pop_chg_pct': 0.05,
+  'total_pop': 55489.0,
+  'total_pop_past': 52684.0},
+ {'area_code': 'E12000002',
+  'area_name': 'North West',
+  'area_name_lower': 'north west',
+  'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_chg': 0.0,
+  'pop_chg_pct': nan,
+  'total_pop': 0.0,
+  'total_pop_past': 0.0},
+ {'area_code': 'E92000001',
+  'area_name': 'England',
+  'area_name_lower': 'england',
+  'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_chg': 0.0,
+  'pop_chg_pct': nan,
+  'total_pop': 0.0,
+  'total_pop_past': 0.0}]
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:118] myede unpacked variables {'ia_wa': 0.59, 'ia_ra': 0.27, 'bmi_wa': nan, 'bmi_ra': nan, 'bmii_wa': nan, 'bmii_ra': nan, 'ia_gr_wa': 0.01, 'ia_gr_ra': 0.22, 'bmi_gr_wa': nan, 'bmi_gr_ra': nan, 'bmii_gr_wa': nan, 'bmii_gr_ra': nan, 'ia_pop': 55489.0, 'ia_pop_chg': 0.05, 'bmii_pop_chg': nan}
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:144] myede conditions {'test_wa_bmi': False, 'test_wa_bmii': False, 'test_wa': True, 'test_ra_bmi': False, 'test_ra_bmii': False, 'test_ra': True, 'test_gr': False, 'test_gr_wa': False, 'test_gr_ra': False}
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:72] formatting single numbers in progress:
+[{'area_code': 'E07000030',
+  'area_name': 'Eden',
+  'area_name_lower': 'eden',
+  'pop_bands': {'0-15': 8152.0, '16-64': 32624.0, '65+': 14713.0},
+  'pop_bands_chg': {'0-15': -270.0, '16-64': 443.0, '65+': 2632.0},
+  'pop_bands_chg_pct': {'0-15': -0.03, '16-64': 0.01, '65+': 0.22},
+  'pop_bands_past': {'0-15': 8422.0, '16-64': 32181.0, '65+': 12081.0},
+  'pop_bands_pct': {'0-15': 0.15, '16-64': 0.59, '65+': 0.27},
+  'pop_chg': '2,800',
+  'pop_chg_pct': '5%',
+  'total_pop': '55,000',
+  'total_pop_past': 52684.0},
+ {'area_code': 'E12000002',
+  'area_name': 'North West',
+  'area_name_lower': 'north west',
+  'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_chg': '0',
+  'pop_chg_pct': 'nan%',
+  'total_pop': '0',
+  'total_pop_past': 0.0},
+ {'area_code': 'E92000001',
+  'area_name': 'England',
+  'area_name_lower': 'england',
+  'pop_bands': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': nan, '16-64': nan, '65+': nan},
+  'pop_chg': '0',
+  'pop_chg_pct': 'nan%',
+  'total_pop': '0',
+  'total_pop_past': 0.0}]
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:79] formatting age band numbers in progress:
+[{'area_code': 'E07000030',
+  'area_name': 'Eden',
+  'area_name_lower': 'eden',
+  'pop_bands': {'0-15': '8,200', '16-64': '33,000', '65+': '15,000'},
+  'pop_bands_chg': {'0-15': -270.0, '16-64': 443.0, '65+': 2632.0},
+  'pop_bands_chg_pct': {'0-15': '-3%', '16-64': '1%', '65+': '22%'},
+  'pop_bands_past': {'0-15': 8422.0, '16-64': 32181.0, '65+': 12081.0},
+  'pop_bands_pct': {'0-15': '15%', '16-64': '59%', '65+': '27%'},
+  'pop_chg': '2,800',
+  'pop_chg_pct': '5%',
+  'total_pop': '55,000',
+  'total_pop_past': 52684.0},
+ {'area_code': 'E12000002',
+  'area_name': 'North West',
+  'area_name_lower': 'north west',
+  'pop_bands': {'0-15': '0', '16-64': '0', '65+': '0'},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': 'nan%', '16-64': 'nan%', '65+': 'nan%'},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': 'nan%', '16-64': 'nan%', '65+': 'nan%'},
+  'pop_chg': '0',
+  'pop_chg_pct': 'nan%',
+  'total_pop': '0',
+  'total_pop_past': 0.0},
+ {'area_code': 'E92000001',
+  'area_name': 'England',
+  'area_name_lower': 'england',
+  'pop_bands': {'0-15': '0', '16-64': '0', '65+': '0'},
+  'pop_bands_chg': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_chg_pct': {'0-15': 'nan%', '16-64': 'nan%', '65+': 'nan%'},
+  'pop_bands_past': {'0-15': 0.0, '16-64': 0.0, '65+': 0.0},
+  'pop_bands_pct': {'0-15': 'nan%', '16-64': 'nan%', '65+': 'nan%'},
+  'pop_chg': '0',
+  'pop_chg_pct': 'nan%',
+  'total_pop': '0',
+  'total_pop_past': 0.0}]
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:118] myede unpacked variables {'ia_wa': '59%', 'ia_ra': '27%', 'bmi_wa': 'nan%', 'bmi_ra': 'nan%', 'bmii_wa': 'nan%', 'bmii_ra': 'nan%', 'ia_gr_wa': '1%', 'ia_gr_ra': '22%', 'bmi_gr_wa': 'nan%', 'bmi_gr_ra': 'nan%', 'bmii_gr_wa': 'nan%', 'bmii_gr_ra': 'nan%', 'ia_pop': '55,000', 'ia_pop_chg': '5%', 'bmii_pop_chg': 'nan%'}
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:237] ('this is text_0 populated:\n'
+ 'The latest 2022 ONS Population Estimates shows that the population of Eden '
+ 'is around 55,000. Eden has a relatively small working age population (59%) '
+ 'compared to the regional (nan%) and national position (nan%). Additionally, '
+ 'Eden has a relatively small retirement age populaiton (27%) compared to '
+ 'regional (nan%) and national benchmarks (nan%). ')
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:239] ('this is text_1 populated:\n'
+ 'Eden has experienced lower than average growth in population over the past '
+ '10 years compared to England (5% vs nan%). In contrast to the national '
+ 'position, a larger proportion of the population growth has been driven by '
+ 'the non-working age populaiton. The change in the retirement age population '
+ 'has been lower in Eden compared to England.')
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:243] list table of pop chg by band: [['-3%', '1%', '22%'], ['nan%', 'nan%', 'nan%'], ['nan%', 'nan%', 'nan%']]
+29-02-2024 12:11:22 DEBUG    [myede_processing.py:245] list table transposed: [['-3%', 'nan%', 'nan%'], ['1%', 'nan%', 'nan%'], ['22%', 'nan%', 'nan%']]
+29-02-2024 12:11:22 INFO     [myede_doc.py:23] Adding myede content to doc
+29-02-2024 12:11:22 INFO     [doc_tools.py:23] Adding table from list to doc
+29-02-2024 12:11:22 INFO     [doc_tools.py:53] Finished adding table from list to doc
+29-02-2024 12:11:22 INFO     [myede_doc.py:39] Finished adding myede content to doc

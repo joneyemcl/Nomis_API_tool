@@ -11,7 +11,7 @@ from typing import List, Dict, Callable, Tuple
 
 import pandas as pd
 
-from definitions import Nom, Pop, AgeBands, Aps
+from definitions import Nom, Pop, AgeBands, Aps, PathsDir
 from impact_areas import ImpactAreas
 
 logger = logging.getLogger(__name__)
@@ -41,6 +41,7 @@ def filter_and_save(df: pd.DataFrame, writer: pd.ExcelWriter, sheet_name: str, i
     filtering the dataset and saving to excel writer
     """
     logger.debug(f'imported {sheet_name} cleaned\n{df.head()}')
+    df = df.dropna(axis=1, how='all') # need this in here because area_code has been duplicated somehow
     df = df[df[Nom.AREA_CD].isin(impact_areas.area_codes)]
     logger.debug(f'filtering for impact areas\n{df[Nom.AREA_NM].value_counts()}')
     df.to_excel(writer, sheet_name=sheet_name, index=False)
@@ -68,6 +69,8 @@ def get_elem(struct: List[Dict], area_code: str) -> Dict:
 
 
 def get_total_population(area_code: str, df: pd.DataFrame, year: int) -> numbers.Number:
+    df.dropna(axis=1, how='all', inplace=True)
+    df.to_csv('C:\\Users\\hub11\\Documents\\Python\\misc\\nomis_report_tool\\output.csv', index=False)
     cond = (df[Nom.AREA_CD] == area_code) & (df[Nom.DATE] == year)
     df_filt = df[cond]
     total_pop = df_filt[Nom.VALUE].sum()
